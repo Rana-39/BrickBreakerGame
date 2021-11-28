@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-/*package brickBreaker1;
+package brickBreaker1;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -11,7 +11,7 @@ import java.awt.Graphics2D;
 /**
  *
  * @author rannn
- *//*
+ */
 public class MapGenerator {
     public int map[][];
     public int brickWidth;
