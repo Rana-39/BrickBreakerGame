@@ -6,27 +6,29 @@
 
 /**
  *
- * @author rannn
+ * @author rannna
  */
-package brickBreaker1;
+package bbg;
 import javax.swing.JFrame;
-public class Main {
-    public static void main(String[]args){
-        JFrame obj = new JFrame();
-        //create object for JFrame
-        obj.setBounds(10,10,700,600);
-        //for the width and height for JFrame window
-        obj.setTitle("Breakout Ball");
-        //title of window
-        obj.setResizable(false);
-        //the window can't change it is size
-        obj.setVisible(true);
-        //visible 
-        obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Gameplay gameplay = new Gameplay();
-        //create object for class gameplay
-        obj.add(gameplay);
-        //add gameplay(JPanel) into JFrame
-        
-    }
+public class BBG {
+public static void main(String[] args) {
+ 
+ JFrame obj = new JFrame();
+ GamePlay gameplay = new GamePlay();
+    //create an object for GamePlay
+ obj.setBounds(10,10,700,600);
+    //height and width of window
+ obj.setTitle("BrickBreaker");
+    //the title of the window 
+ obj.setResizable(false);
+    //it can't change it's size
+ obj.setVisible(true);
+    //to make it visible 
+ obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    //exit,open and close the window 
+ obj.add(gameplay);
+    //called gameplay as argument in JFrame
+ }
+ 
+
 }
