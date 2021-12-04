@@ -1,7 +1,7 @@
 # BrickBreakerGame
 BrickBreaker game is a java project for IT students❤️.
 
-• The course is CS181, presented to Dr. Meshaiel Alsheail. 
+• The course is IT214, presented to Dr. Meshaiel Alsheail. 
 
 
 # project idea 
